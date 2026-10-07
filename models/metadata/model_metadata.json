@@ -1,0 +1,48 @@
+{
+  "best_model": "xgboost",
+  "feature_names": [
+    "age",
+    "studytime",
+    "failures",
+    "absences",
+    "attendance_pct",
+    "g1_grade",
+    "g2_grade",
+    "g3_grade",
+    "academic_average",
+    "famrel",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "school_MS",
+    "sex_M",
+    "schoolsup_yes",
+    "famsup_yes",
+    "higher_yes",
+    "internet_yes",
+    "subject_Portuguese"
+  ],
+  "random_state": 42,
+  "split_ratios": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "metrics": {
+    "val_accuracy": 0.9855072463768116,
+    "val_precision": 1.0,
+    "val_recall": 0.9166666666666666,
+    "val_f1": 0.9565217391304348,
+    "val_auc": 0.9990253411306043,
+    "test_accuracy": 0.9806763285024155,
+    "test_precision": 0.9714285714285714,
+    "test_recall": 0.918918918918919,
+    "test_f1": 0.9444444444444444,
+    "test_auc": 0.9966613672496024
+  },
+  "dataset_rows": 1032,
+  "dataset_path": "/tmp/cc-agent/70861119/project/data/analytical/student_analytics.csv",
+  "model_path": "/tmp/cc-agent/70861119/project/models/artifacts/best_model.joblib",
+  "scaler_path": null
+}

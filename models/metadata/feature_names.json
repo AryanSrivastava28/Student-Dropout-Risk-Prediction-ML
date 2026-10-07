@@ -1,0 +1,23 @@
+[
+  "age",
+  "studytime",
+  "failures",
+  "absences",
+  "attendance_pct",
+  "g1_grade",
+  "g2_grade",
+  "g3_grade",
+  "academic_average",
+  "famrel",
+  "goout",
+  "Dalc",
+  "Walc",
+  "health",
+  "school_MS",
+  "sex_M",
+  "schoolsup_yes",
+  "famsup_yes",
+  "higher_yes",
+  "internet_yes",
+  "subject_Portuguese"
+]

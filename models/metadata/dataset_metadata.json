@@ -1,0 +1,52 @@
+{
+  "dataset_name": "UCI Student Performance - Analytical Dataset",
+  "source": "https://archive.ics.uci.edu/dataset/320/student+performance",
+  "dataset_path": "data/analytical/student_analytics.csv",
+  "dataset_sha256": "2e18e6f9dac354fefd86f78b85d5b070cbfb051e48229cfb74fdcef0ed91c7db",
+  "rows": 1032,
+  "columns": 25,
+  "target_column": "at_risk",
+  "target_description": "Binary: 1 if risk_category is High Risk or Medium Risk, 0 if Low Risk",
+  "target_distribution": {
+    "0": 850,
+    "1": 182
+  },
+  "feature_columns": [
+    "age",
+    "studytime",
+    "failures",
+    "absences",
+    "attendance_pct",
+    "g1_grade",
+    "g2_grade",
+    "g3_grade",
+    "academic_average",
+    "famrel",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "school_MS",
+    "sex_M",
+    "schoolsup_yes",
+    "famsup_yes",
+    "higher_yes",
+    "internet_yes",
+    "subject_Portuguese"
+  ],
+  "split": {
+    "method": "stratified_train_val_test",
+    "ratios": {
+      "train": 0.6,
+      "validation": 0.2,
+      "test": 0.2
+    },
+    "random_state": 42,
+    "train_rows": 618,
+    "validation_rows": 207,
+    "test_rows": 207
+  },
+  "versioning": "Git-based metadata (DVC not used). Dataset tracked via this metadata file in Git.",
+  "generated_by": "transformation/create_analytics.py",
+  "generated_at": "2026-09-11"
+}

@@ -1,0 +1,11 @@
+node_modules
+dist
+mlruns
+airflow/logs
+airflow/airflow.db
+airflow/airflow.cfg
+__pycache__
+*.pyc
+.git
+.env
+venv
